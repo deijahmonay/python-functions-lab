@@ -78,13 +78,33 @@ print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
 #
 # Write a function named `sum_to` that takes a single integer n and returns the sum of all integers from 1 to n.
 def sum_to(n):
-    return
+    return sum(num for num in range(1, n + 1)) 
 # Examples:
 # sum_to(6) should return 21.
 # sum_to(10) should return 55.
 #
 # Define the function and then call it below.
 
-
-
 print('Exercise 5:', sum_to(6))
+print('Exercise 5:', sum_to(10))
+print('Exercise 5:', sum_to(20))
+
+
+# Exercise 6: Find the Largest Number
+#
+# Write a function named `largest` that takes three integers as arguments and returns the largest of them.
+def largest(a, b, c):
+    return max(a, b, c) # https://www.w3schools.com/python/ref_func_max.asp
+# Examples:
+# largest(1, 2, 3) should return 3.
+# largest(10, 4, 2) should return 10.
+#
+# Define your function and test it with different inputs.
+
+
+
+print('Exercise 6:', largest(1, 2, 3))
+print('Exercise 6:', largest(10, 4, 2))
+print('Exercise 6:', largest(45, 54, 32))
+
+
